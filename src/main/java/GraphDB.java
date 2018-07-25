@@ -11,12 +11,7 @@ import java.util.Iterator;
 
 /**
  * Graph for storing all of the intersection (vertex) and road (edge) information.
- * Uses your GraphBuildingHandler to convert the XML files into a graph. Your
- * code must include the world, adjacent, distance, closest, lat, and lon
- * methods. You'll also need to include instance variables and methods for
- * modifying the graph (e.g. addNode and addEdge).
- *
- * @author Alan Yao, Josh Hug
+ * Uses GraphBuildingHandler to convert the XML files into a graph. =
  */
 public class GraphDB {
     /**
@@ -26,8 +21,7 @@ public class GraphDB {
     HashMap<Long, Node> world;
 
     /**
-     * Example constructor shows how to create and start an XML parser.
-     * You do not need to modify this constructor, but you're welcome to do so.
+     * Create and start an XML parser.
      *
      * @param dbPath Path to the XML file to be parsed.
      */
